@@ -3,3 +3,8 @@ node_modules/
 dist/
 npm-debug.log
 yarn-error.log
+.project
+package-lock.json
+static/lib/layui-v2.3.0/文档与示例
+static/lib/layui-v2.3.0/更新日志.url
+.vscode

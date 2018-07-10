@@ -1,11 +1,13 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
     <hello></hello>
   </div>
 </template>
 
 <script>
+import layui from '../static/lib/layui-v2.3.0/layui/layui.js'
+import '../static/lib/layui-v2.3.0/layui/css/layui.css'
+import '../static/css/main.css'
 import Hello from './components/Hello'
 
 export default {
@@ -17,12 +19,4 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>
